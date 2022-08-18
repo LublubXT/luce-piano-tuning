@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imgs/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Titus Piano Tec</title>
+</head>
+
+<body>
+    <div class="navbar-dark">
+        <div style="display: flex; flex-direction: row; width: 300px;">
+            <img src="imgs/header-image.svg" alt="header image" style="height: 40px; width: auto; margin: auto; margin-left: 20px; margin-right: -10px;">
+            <h2 class="navbar-title-dark" style="font-family: 'Times New Roman', Times, serif; font-weight: 100; width: 300px;">Luce Piano Tuning
+            </h2>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="onMenuClick()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <div class="navbar-inner-dark" id="drop">
+            <a href="contact.html" class="navbar-button-dark-active">Contact</a>
+            <a href="services.html" class="navbar-button-dark">Services</a>
+            <a href="about.html" class="navbar-button-dark">About</a>
+            <a href="index.html" class="navbar-button-dark">Home</a>
+        </div>
+
+        <!-- <a href="#" class="nav-link-1">Chat</a> -->
+    </div>
+    <div class="area-main-dark" style="background-image: url('imgs/logo.png');">
+        <div class="inner-area-main-dark" style="width: 100%;">
+            <div class="align-items-center" style="flex-direction: column;">
+                <div class="service-block" style="height: fit-content;">
+                    <form action="https://app.99inbound.com/api/e/123456" method="POST" target="_blank">
+                        <h1 style="text-align: center; font-size: 2.7em;">Contact</h1>
+                        <input type="text" placeholder="First Name" style="font-size: 20px;  display: block; margin: 5px auto;"></input>
+                        <input type="text" placeholder="Last Name" style="font-size: 20px;  display: block; margin: 5px auto;"></input>
+                        <input type="email" placeholder="Email" style="font-size: 20px;  display: block; margin: 5px auto;"></input>
+                        <input type="tel" placeholder="Phone Number" style="font-size: 20px;  display: block; margin: 5px auto;"></input>
+                        <input type="text" placeholder="Address" style="font-size: 20px;  display: block; margin: 5px auto;"></input>
+                        <textarea placeholder="Message" style="font-size: 20px;  display: block; margin: 5px auto;"></textarea>
+                        <button type="submit" class="button-light" style="display: block;margin:auto; font-size: 17px; margin-top: 20px; margin-bottom: 30px;">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="align-items-center" style=" width: 500px;">
+            <img src="imgs/header-image.svg" class="footer-image" alt="header image" style="height: 40px; width: auto; margin: auto; margin-left: 60px; margin-right: -60px;">
+            <h1 class="footer-text" style=" text-align: center; font-size: 2.7em; font-family: 'Times New Roman', Times, serif;">
+                Titus Piano Tec</h1>
+        </div>
+        <div class="align-items-center" style="flex-direction: column; width: 500px;">
+            <a href="index.html" class="footer-link">Home</a>
+            <a href="about.html" class="footer-link">About</a>
+            <a href="services.html" class="footer-link">Services</a>
+            <a href="contact.html" class="footer-link">Contact</a>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
